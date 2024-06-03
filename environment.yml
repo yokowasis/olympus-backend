@@ -1,0 +1,22 @@
+name: sdgs
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - spacy
+  - openai
+  - itables
+  - flask
+  - supabase
+  - pip
+  - pip:
+      - jupyter
+      - pynvim
+      - psycopg2
+      - torch
+      - torchvision
+      - torchaudio
+      - transformers
+      - angle-emb
+      - flask-cors

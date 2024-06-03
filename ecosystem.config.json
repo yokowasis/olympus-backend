@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "sgds:3012",
+      "script": "conda run -n sdgs python backend.py",
+      "watch": false,
+      "instances": 1
+    }
+  ]
+}
